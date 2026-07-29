@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body {
+  width: 100%;
+  height: 100%;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px 20px;
+}
+
+h1 {
+  background-color: rgb(119 , 119, 119);
+  width: fit-content;
+  padding: 10px 50px;
+  border-radius: 5px;
+  margin: 10px;
+}
