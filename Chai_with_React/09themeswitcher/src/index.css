@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+/* Tailwind CSS v4 directive: enable class-based dark mode. */
+/* stylelint-disable-next-line at-rule-no-unknown */
+@custom-variant dark (&:where(.dark, .dark *));
